@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script async src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <form class="search-form">
+          <input
+            type="text"
+            class="search-input"
+            name="buscar"
+            placeholder="Chistes..."
+          />
+          <button class="search-button">Buscar</button>
+        </form>
+      </div>
+    </header>
+    <div class="content">
+      <h3 class="results-count-num">
+        Resulados: <span class="span-results-count">11</span>
+      </h3>
+      <div class="results"></div>
+    </div>
+    <template id="results-item-template">
+      <div class="results-item">
+        <img
+          class="imagen-item"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSut7g8GSJ0wTLC8_RM4fWVQmeIb8zawnjsRBrbpKRX4feu-XfTjWvtReU&s=10"
+          alt="imagen de la api"
+        />
+        <div class="results-item-content">
+          <h4 class="results-item-content-title">titulo</h4>
+          <p class="results-item-condition">Nuevo/usado</p>
+          <p class="results-item-sell-count">
+            Vendidos: <span class="results-item-sell-count-number"></span>
+          </p>
+        </div>
+        <div class="results-item-price">1111</div>
+      </div>
+    </template>
+  </body>
+</html>

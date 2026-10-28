@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: gainsboro;
+  padding: 12px 0;
+}
+.header-content {
+  max-width: 510px;
+  margin: 0 auto;
+}
+.search-form {
+  display: flex;
+}
+.search-button {
+  padding: 12px 35px;
+}
+.search-input {
+  flex-grow: 1;
+  margin-right: 14px;
+}
+.content {
+  background-color: gainsboro;
+  max-width: 510px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.results-count-num {
+  font-weight: normal;
+  font-size: 16px;
+}
+.results-item {
+  border: solid 1px;
+  border-radius: 4px;
+  display: flex;
+  padding: 13px;
+  margin-top: 20px;
+}
+.imagen-item {
+  /* border: solid red; */
+  width: 128px;
+  max-height: 128px;
+  margin: auto 0px;
+}
+.results-item-content {
+  flex-grow: 1;
+  /* padding: 13px; */
+  padding: 0 13px;
+}
+.results-item-content-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.results-item-condition {
+  margin-top: 4px;
+}
+.results-item-sell-count {
+  margin-top: 100px;
+}
+.results-item-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5791a4;
+  /* padding: 13px 15px; */
+}
